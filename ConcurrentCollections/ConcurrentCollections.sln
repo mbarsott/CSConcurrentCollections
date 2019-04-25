@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDictionaryOps", "Basic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyAndSell", "BuyAndSell\BuyAndSell.csproj", "{52BC8FFF-1741-46E4-B625-AA14A9CCFB87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentQueueDemo", "ConcurrentQueueDemo\ConcurrentQueueDemo.csproj", "{A66A5CD8-1A10-4DEA-ADDA-11748E504B78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesBonuses", "SalesBonuses\SalesBonuses.csproj", "{C294618D-89F1-434A-A4A0-0448A9F6A2EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{52BC8FFF-1741-46E4-B625-AA14A9CCFB87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52BC8FFF-1741-46E4-B625-AA14A9CCFB87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52BC8FFF-1741-46E4-B625-AA14A9CCFB87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A66A5CD8-1A10-4DEA-ADDA-11748E504B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66A5CD8-1A10-4DEA-ADDA-11748E504B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66A5CD8-1A10-4DEA-ADDA-11748E504B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66A5CD8-1A10-4DEA-ADDA-11748E504B78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C294618D-89F1-434A-A4A0-0448A9F6A2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C294618D-89F1-434A-A4A0-0448A9F6A2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C294618D-89F1-434A-A4A0-0448A9F6A2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C294618D-89F1-434A-A4A0-0448A9F6A2EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

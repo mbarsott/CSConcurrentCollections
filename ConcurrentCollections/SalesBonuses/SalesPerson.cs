@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace BuyAndSell
+namespace SalesBonuses
 {
     public class SalesPerson
     {
@@ -18,19 +18,19 @@ namespace BuyAndSell
             DateTime start = DateTime.Now;
             while (DateTime.Now - start < workDay)
             {
-                //                Thread.Sleep(rand.Next(100));
+                Thread.Sleep(rand.Next(100));
                 bool buy = (rand.Next(6) == 0);
                 string itemName = Program.AllShirtNames[rand.Next(Program.AllShirtNames.Count)];
                 if (buy)
                 {
                     int quantity = rand.Next(9) + 1;
-                    controller.BuyStock(itemName, quantity);
-                    //                    DisplayPurchase(itemName, quantity);
+                    controller.BuyStock(this, itemName, quantity);
+                    DisplayPurchase(itemName, quantity);
                 }
                 else
                 {
-                    bool success = controller.TrySellItem(itemName);
-                    //                    DisplaySaleAttempt(success, itemName);
+                    bool success = controller.TrySellItem(this, itemName);
+                    DisplaySaleAttempt(success, itemName);
                 }
             }
 
